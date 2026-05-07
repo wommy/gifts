@@ -14,6 +14,7 @@ DHH-inspired: opensource as gathering — sharing + receiving as primitive. This
 | [`plan-mode-forever-claude-code.md`](./plan-mode-forever-claude-code.md) | Claude Code harness recipe (`.claude/settings.local.json` allow-list + AGENTS.md snippet) |
 | [`plan-mode-forever-codex.md`](./plan-mode-forever-codex.md) | Codex harness recipe (`~/.codex/config.toml` granular approval + execpolicy) |
 | [`handcrawl-saga.md`](./handcrawl-saga.md) | primary-source handwalk + 3-axis verification matrix (cures script-as-floor survivorship-bias) |
+| [`egeo-saga.md`](./egeo-saga.md) | **saga-DSL as cross-harness dispatch primitive** — Egeo Minottis bunqueue/workflow (compensate + retry+backoff+jitter + branch + parallel + subWorkflow + waitFor) retargeted onto codex/opencode/opus pool via disprove-via-build heuristic (saga-22 onramp) |
 
 Each gift includes project-retargeting callouts — replace project-specific paths / runtimes / event-log conventions as fits yours.
 
