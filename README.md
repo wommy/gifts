@@ -10,7 +10,9 @@ DHH-inspired: opensource as gathering — sharing + receiving as primitive. This
 |---|---|
 | [`event-substrate.md`](./event-substrate.md) | **foundation** — the workflow architecture all other gifts assume (typed event log + postit ephemera + cross-session memory + cold-start projection + saga-partition debrief + substrate snapshot) |
 | [`agent-prompt-dial.md`](./agent-prompt-dial.md) | bg-agent prevention block — universal Claude Code plan-mode hack (~70% token savings on bg dispatches) |
-| [`plan-mode-forever.md`](./plan-mode-forever.md) | meta-cure + 8-layer scar armor pattern for staying in plan-mode without losing write-side |
+| [`plan-mode-forever.md`](./plan-mode-forever.md) | **meta-cure + 8-layer scar armor** for staying in plan-mode without losing write-side (harness-agnostic core) |
+| [`plan-mode-forever-claude-code.md`](./plan-mode-forever-claude-code.md) | Claude Code harness recipe (`.claude/settings.local.json` allow-list + AGENTS.md snippet) |
+| [`plan-mode-forever-codex.md`](./plan-mode-forever-codex.md) | Codex harness recipe (`~/.codex/config.toml` granular approval + execpolicy) |
 | [`handcrawl-saga.md`](./handcrawl-saga.md) | primary-source handwalk + 3-axis verification matrix (cures script-as-floor survivorship-bias) |
 
 Each gift includes project-retargeting callouts — replace project-specific paths / runtimes / event-log conventions as fits yours.
