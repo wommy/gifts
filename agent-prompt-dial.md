@@ -32,4 +32,4 @@ Plan-mode constraint is a *prompt-layer instruction* CC sends to subagents. The 
 
 - **plan-mode-forever** (gifts/plan-mode-forever.md) — the meta-cure + 8-layer armor pattern
 - **bg-dispatch-soft-shelved** — cost/leverage gate; bg only for emergencies/parallel-sweeps where 4+ birds justify cost
-- **type-3 source-raw audit** (gifts/type-3-source-raw-audit.md) — survivorship-bias cure for synthesis primitives
+- **type-3 source-raw audit** — survivorship-bias cure for synthesis primitives; doctrine carried inline in [handcrawl-saga.md](./handcrawl-saga.md) "Three-axis verification matrix" section
