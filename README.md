@@ -8,6 +8,7 @@ DHH-inspired: opensource as gathering — sharing + receiving as primitive. This
 
 | file | what |
 |---|---|
+| [`event-substrate.md`](./event-substrate.md) | **foundation** — the workflow architecture all other gifts assume (typed event log + postit ephemera + cross-session memory + cold-start projection + saga-partition debrief + substrate snapshot) |
 | [`agent-prompt-dial.md`](./agent-prompt-dial.md) | bg-agent prevention block — universal Claude Code plan-mode hack (~70% token savings on bg dispatches) |
 | [`plan-mode-forever.md`](./plan-mode-forever.md) | meta-cure + 8-layer scar armor pattern for staying in plan-mode without losing write-side |
 | [`handcrawl-saga.md`](./handcrawl-saga.md) | primary-source handwalk + 3-axis verification matrix (cures script-as-floor survivorship-bias) |
