@@ -5,7 +5,7 @@
 ## Cold-start ritual (saga-27 captain — RUN FIRST)
 
 ```bash
-bun scripts/cap-prep.ts --detect       # 4-substrate cold-start orientation
+bun scripts/cap-prep.ts --detect       # 5-substrate cold-start orientation
                                        # surfaces: scars+detectors / gift-evidence / scar-doctrine-pair / lexicon
 ```
 
