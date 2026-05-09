@@ -93,6 +93,8 @@ The projection-cache lib (`scripts/lib/projection-cache.ts`, ~70 LOC) is BSD-tie
 
 - `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every ship has 5-10 propagation-sites; 7 audit-categories)
 
+- `gifts/event-substrate.md` (sister-gift, foundation — typed event log this projection-pattern composes over)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

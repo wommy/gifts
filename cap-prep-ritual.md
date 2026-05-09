@@ -91,6 +91,8 @@ For any project with a similar substrate:
 
 - `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every ship has 5-10 propagation-sites; 7 audit-categories)
 
+- `gifts/event-substrate.md` (sister-gift, foundation — the event log cap-prep --detect mines)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

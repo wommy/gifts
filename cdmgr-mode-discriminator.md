@@ -96,6 +96,8 @@ For any project with a similar substrate:
 
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
 
+- `gifts/corpus-mining-trio.md` (sister-gift, saga-26 — cdmgr is one of 3 mining tools; this gift drills into cdmgr mode-discriminator)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

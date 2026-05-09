@@ -85,6 +85,8 @@ For any project with a similar substrate:
 - `gifts/dial-loop-toolbox.md` (sister-gift, saga-26 — uses dial-not-rewrite within the ladder)
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
+- `gifts/event-substrate.md` (sister-gift, foundation — the event log substrate this ladder operates on)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.
