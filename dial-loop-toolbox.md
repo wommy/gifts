@@ -88,6 +88,8 @@ If your project uses different patch primitives (jscodeshift, sed-driven scripts
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — uses safe-patch as TIER-1 in the patch+test+commit composition)
 - `gifts/cascade-discipline.md` (sister-gift, saga-25 — propagates a single dial across N callers)
 
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

@@ -124,6 +124,8 @@ The trio's iron-law is universal: **3 substrates need 3 tools; question-shape de
 - `gifts/cap-prep-ritual.md` (sister-gift, saga-26 — uses all 3 trio tools at cold-start)
 - `gifts/handcrawl-saga.md` (sister-gift — primary-source mining when tools fail)
 
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

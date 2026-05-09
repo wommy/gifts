@@ -65,6 +65,8 @@ For any team-process where rules-are-codified-but-violated:
 - `gifts/captain-cure-pairs.md` (sister-gift, saga-26 — codifies cure-pair discipline; THIS gift documents its meta-failure-mode)
 - `gifts/cap-prep-ritual.md` (sister-gift, saga-26 — cold-start reads substrate; this gift addresses why cold-start-only is insufficient)
 
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

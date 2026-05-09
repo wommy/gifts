@@ -94,6 +94,8 @@ For any project with a similar substrate:
 - `19e0a8ebb2307c6` saga-26 mode-discriminator (this gift's source doctrine)
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — same don't-quit-easily meta-pattern over patch-test-commit)
 
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

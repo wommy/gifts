@@ -88,6 +88,8 @@ Below threshold: just bank scars with consistent text-tags so future grep finds 
 - `gifts/captain-cure-pairs.md` (sister-gift, saga-26 — codifies the cure-pair iron-law)
 - `gifts/cap-prep-ritual.md` (sister-gift, saga-26 — cap-prep --detect runs this apparatus)
 
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.
