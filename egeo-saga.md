@@ -29,3 +29,15 @@ Plus loops (`doUntil`, `doWhile`, `forEach`) with `maxIterations` safety, schema
 ## Cross-harness retargeting
 
 The classic saga example is e-commerce checkout: validate-cart → reserve-inventory → charge-card → ship → notify. Compensations refund and release. **The agent-dispatch isomorph**:
+
+The classic saga example is e-commerce checkout: validate-cart → reserve-inventory → charge-card → ship → notify. Compensations refund and release. **The agent-dispatch isomorph**: spec → pick-tier → dispatch-handler → verify-tests → open-PR → merge. Compensations close-PR, revert-branch, refund-credits.
+
+- `step("dispatch-via-codex", codexSpawn, { compensate: closePR, retry: 3 })` — same atomic unit. Retry handles anthropic 429s and openai overload errors instead of payment-gateway flakes.
+- `branch(ctx => costTier(ctx.input)).path("cheap", codexPath).path("mid", opencodePath).path("opus", foregroundPath)` — runtime cost-tier routing. Picks the cheapest harness that can plausibly ship the spec. Egeo's KYC low/medium/high tiers map cleanly.
+- `parallel(w => w.step("codex-attempt").step("opencode-attempt").step("opus-attempt"))` — race three harnesses; first passing PR wins; others' PRs get closed via their compensations.
+- `subWorkflow("codex-spec-to-PR", mapInput)` — child handles spec→PR; parent handles spec→PR→review→merge. Composition keeps individual flows shippable.
+- `waitFor("approval", { timeout: 48h })` — operator approves merge after CI greens. Workflow genuinely sleeps in SQLite for hours or days; no polling, no scheduler. Same primitive that gates production deploys gates AI-generated PRs.
+- `retry: N` with `min(500ms * 2^attempt + jitter, 30s)` — jitter prevents thundering-herd on rate-limited APIs when 100 workflows hit the same key.
+- `step:retry` / `workflow:compensating` events emit per attempt; pipe to Datadog or equivalent without polling.
+
+The substrate Egeo built for "checkout an order" turns out to be **exactly** the substrate for "ship an AI-generated PR." Both are multi-step transactions over external services with non-trivial failure modes and human gates. The DSL is the same. Only the verbs change.
