@@ -28,7 +28,7 @@ Across 1 saga, captain shipped 13 gifts + 4 projections. Operator probed `you go
 | 2 | "you got more to bubble up on right?" | 8 | substrateRequires×20 + projection-as-substrate + captain-cure 9→12 + Origin paragraph + MEMORY regen + bridge refresh |
 | 3 | "you got more to bubble up on right?" | 8 | 5 sister-cites + AGENTS.md saga-section + tasklist event-log + 5-final-sister-cites |
 | 4 | "225k can we continue bubbling" | 5+ | cap-prep banner + 5→7 rituals + default-saga 25→26 + bridge refresh + meta-doctrine |
-| **Total** | 5+ prompts | **52+ bubbles** | corpus-wide consistency |
+| **Total** | 9+ prompts | **115+ bubbles** | corpus-wide consistency |
 
 Captain bubbled 1-3 sites unprompted per round; operator probes (5+ rounds, "you got more to bubble up on right?") surfaced 5-10x more per round. Pattern firmly established: shipped-cure ≠ applied-cure; **operator-as-forcing-function-at-action-time** IS the cure. Sister-arq: 19e0b0ab9daf6bb saga-26 31-bubble-cascade meta-cure.
 
