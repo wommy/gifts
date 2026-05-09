@@ -18,6 +18,20 @@ APPLY = mental-grep against SHIPPED-cures BEFORE every fresh action,
         not just AFTER the fresh action triggers the substrate's detector.
 ```
 
+## Concrete witness — saga-26 31-bubble cascade
+
+Across 1 saga, captain shipped 13 gifts + 4 projections. Operator probed `you got more to bubble up on right?` 4 times. Each probe surfaced 5-10 propagation-sites the captain had skipped:
+
+| Round | Probe | Bubbles caught | Sites |
+|---|---|---|---|
+| 1 | implicit (post-N6-N10) | 5 | README + 5-substrate dial + egeo drift + sister-link + propagation |
+| 2 | "you got more to bubble up on right?" | 8 | substrateRequires×20 + projection-as-substrate + captain-cure 9→12 + Origin paragraph + MEMORY regen + bridge refresh |
+| 3 | "you got more to bubble up on right?" | 8 | 5 sister-cites + AGENTS.md saga-section + tasklist event-log + 5-final-sister-cites |
+| 4 | "225k can we continue bubbling" | 5+ | cap-prep banner + 5→7 rituals + default-saga 25→26 + bridge refresh + meta-doctrine |
+| **Total** | 4 prompts | **26+ bubbles** | corpus-wide consistency |
+
+Captain bubbled 1-3 sites unprompted per round; operator probe surfaced 5-10x more. Pattern firmly established: shipped-cure ≠ applied-cure; **operator-as-forcing-function-at-action-time** IS the cure. Sister-arq: 19e0b0ab9daf6bb saga-26 31-bubble-cascade meta-cure.
+
 ## When the meta-pattern fires
 
 | Symptom | Pattern |
