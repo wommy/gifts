@@ -19,7 +19,7 @@ FIRST MESSAGE OF SAGA N → bun scripts/cap-prep.ts --detect
 LAST MESSAGE OF EACH ROUND → bun scripts/cap-prep.ts --detect (refresh)
 ```
 
-What `cap-prep --detect` surfaces (saga-26 4-substrate cold-start orientation):
+What `cap-prep --detect` surfaces (saga-26 5-substrate cold-start orientation):
 - prior-saga scars / TYPE-1s / self-catches
 - prior-saga doctrines coined (last 10) + hot doctrines + saga-N inbox punts queued FOR this saga
 - top-cited gravity-wells (cross-saga sister-link backref-index)
@@ -27,7 +27,8 @@ What `cap-prep --detect` surfaces (saga-26 4-substrate cold-start orientation):
 - own-session dingleberries (unaddressed asides)
 - **gift-evidence projection** — 5-tier cross-civilization witness counts per gifts/*.md (arq + seshae + cross-project + codex + opencode)
 - **scar-doctrine-pair audit** — orphan scars (no sister-doctrine cite) = ACTIONABLE cure-work
-- **lexicon projection** — top operator-coined terms by cite-density
+- **lexicon projection** — top operator-coined terms by cite-density (1401 terms via Phase-3 hyphen-rich extraction)
+- **scripts-corpus projection** — top hubs (≥5 callers) + orphan-watch (0-caller non-CLI projections); corpus topology snapshot
 
 ## Iron law
 
