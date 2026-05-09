@@ -42,7 +42,7 @@ Skipping phase-6 CLOSE = saga's substrate evaporates without consolidation.
 |---|---|---|
 | 1. BUILD | R1.0 lib/arq IndexedCorpus + arqProjection (P1 neutron-star primitive) | saga-26 R1+R2 cascade across 18 readEvents callers |
 | 2. DOGFOOD | R5 byType.get() dial across cap-prep / captain-arc / cc-tasklist / heading-dial / model-fitness / event-cluster | byType active consumers 0 → 8 |
-| 3. EXTERNALIZE | 11 saga-26 gifts (saga-25 6-rank queue 6/6 closed + 5 saga-26 originals) | gifts/* + public mirror github.com/wommy/gifts |
+| 3. EXTERNALIZE | 13 saga-26 gifts (saga-25 6-rank queue 6/6 closed + 7 saga-26 originals) | gifts/* + public mirror github.com/wommy/gifts |
 | 4. AUDIT | 3 projections (gift-evidence 5-tier + scar-doctrine-pair + lexicon) | cap-prep --detect cold-start visibility |
 | 5. INTEGRATE | cap-prep --detect 5-substrate output (scars+detectors / gift-evidence / scar-doctrine-pair / lexicon / scripts-corpus) | next-cap reads orientation in 1 invocation |
 | 6. CLOSE | saga-26 session-arc-summary doctrine (`19e0ac82b8da6f4`) + saga-27-onramp.md + cross-harness validation (665k witnesses) | saga-26 → saga-27 cap-handoff substrate complete |
