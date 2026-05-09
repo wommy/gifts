@@ -91,6 +91,8 @@ The projection-cache lib (`scripts/lib/projection-cache.ts`, ~70 LOC) is BSD-tie
 - `gifts/captain-cure-pairs.md` (sister-gift, saga-26 — scar-doctrine-pair surfaces orphan-pairs)
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every ship has 5-10 propagation-sites; 7 audit-categories)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

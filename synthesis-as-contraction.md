@@ -93,6 +93,8 @@ For any team-process or codebase asking "did we add or subtract?":
 - `gifts/shipped-cure-vs-applied-cure.md` (sister-gift, saga-26 — codification is necessary-not-sufficient; forcing-functions complete the contraction)
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape that USES synthesis-as-contraction discipline at each phase)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every ship has 5-10 propagation-sites; 7 audit-categories)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

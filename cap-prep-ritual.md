@@ -89,6 +89,8 @@ For any project with a similar substrate:
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 - `gifts/substrate-tier-ladder.md` (sister-gift, saga-26 — workflow for scratch-experiments the captain runs)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every ship has 5-10 propagation-sites; 7 audit-categories)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.
