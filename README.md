@@ -29,6 +29,7 @@ How a captain works through the substrate without losing momentum.
 | [`cap-prep-ritual.md`](./cap-prep-ritual.md) | **saga-26** — mandatory cold-start invocation; cap-prep --detect = THE-ONE-RITUAL primitive |
 | [`captain-cure-pairs.md`](./captain-cure-pairs.md) | **saga-26** — every TYPE-1 self-catch pairs with cure-doctrine; 4 pair-shapes, iron-law, anti-patterns |
 | [`shipped-cure-vs-applied-cure.md`](./shipped-cure-vs-applied-cure.md) | **saga-26 meta-pattern** — captain-fish-doesnt-see-water; shipped-cure ≠ applied-cure; forcing-functions needed |
+| [`bubble-up-discipline.md`](./bubble-up-discipline.md) | **saga-26 meta-pattern** — every ship has 5-10 propagation-sites; 7 categories + 5-step cycle; operator-probe forcing-function |
 | [`synthesis-as-contraction.md`](./synthesis-as-contraction.md) | **saga-26 meta-pattern** — minting a synthesis IS the contraction-act; count concepts not files (operator-coined cure for ZERO-new hyperbolic-framing) |
 | [`contraction-saga-arc.md`](./contraction-saga-arc.md) | **saga-26 meta-pattern** — 6-phase saga-shape (BUILD → DOGFOOD → EXTERNALIZE → AUDIT → INTEGRATE → CLOSE); contraction-saga arc-shape doctrine |
 
@@ -75,9 +76,9 @@ Surface signal from substrate.
 
 Each gift includes its own project-retargeting callouts — replace project-specific paths / runtimes / event-log conventions as fits yours. The doctrine is portable; the implementation is project-shaped.
 
-## Reference scripts (`scripts/`)
+## Reference scripts (public mirror only)
 
-The `scripts/` subdirectory mirrors saga-26 reference implementations of the primitives the gifts assume. See [`scripts/README.md`](./scripts/README.md). Categories: edit-primitives (safe-patch / surgical-patch / anchor-find), patch-test-commit orchestration (patch-test-commit / saga-commit / here), cold-start (cap-prep / arq-log), mining (cdmgr-search / seshae-arq / saga-walk), substrate-tier-ladder (yeet), detection (detect).
+[github.com/wommy/gifts/tree/main/scripts](https://github.com/wommy/gifts/tree/main/scripts) — saga-26 reference implementations of edit-primitives / orchestration / cold-start / mining / yeet / detection. (glom_MR-internal: live at scripts/.)
 
 ## Witness evidence
 
