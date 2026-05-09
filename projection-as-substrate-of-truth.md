@@ -50,13 +50,14 @@ ONE Projection<Event[], IndexedCorpus> SOURCE-OF-TRUTH; N CONSUMERS THIN-WRAP IT
 
 ## Self-evidence (saga-26 session)
 
-3 projections shipped this session, each demonstrating the pattern:
+4 projections shipped this session, each demonstrating the pattern:
 
 | Projection | Source | Build | Output |
 |---|---|---|---|
 | `gift-evidence.ts` | `arqProjection.get()` | regex-match per gift filename + seshae shell-out | `memory/auto-gift-evidence.md` (witness-counts) |
 | `scar-doctrine-pair.ts` | `arqProjection.get()` | `extractCitedIds` cite-graph + TYPE-1 #N ordinal | `memory/auto-scar-doctrine-pair.md` (orphan audit) |
-| `lexicon.ts` | `arqProjection.get()` | 2-source extraction + cross-corpus cite-count | `memory/auto-lexicon.md` (operator-coined gravity-wells) |
+| `lexicon.ts` | `arqProjection.get()` | 2-source extraction + cross-corpus cite-count | `memory/auto-lexicon.md` (operator-coined gravity-wells, 1401 terms) |
+| `scripts-corpus.ts` | filesystem walk | header + caller-graph (lib/import-graph) + tier-classify | `memory/auto-scripts-corpus.md` (corpus-topology + hubs + orphans) |
 
 Each is ~80-120 LOC. Each composes P1 + P2 + lib helpers. None re-implements indexing.
 
