@@ -1,6 +1,6 @@
 # captain-cure-pairs — every TYPE-1 self-catch pairs with a cure-doctrine
 
-> Saga-26 distillate from saga-25 corpus pattern (28+ cap-cure-pairs banked) + saga-25 doctrine `19e09da12cde917` captain-scar-density-meta-pattern + saga-26 9 TYPE-1 cure-pairs banked in single session.
+> Saga-26 distillate from saga-25 corpus pattern (28+ cap-cure-pairs banked) + saga-25 doctrine `19e09da12cde917` captain-scar-density-meta-pattern + saga-26 12 TYPE-1 cure-pairs banked in single session.
 
 ## What it cures
 
@@ -39,7 +39,7 @@ Mature substrate = scars and doctrines mutually-cite. Detectors should filter fo
 
 ## Self-evidence (saga-26 session)
 
-9 cap-cure-pairs banked this session:
+12 cap-cure-pairs banked this session:
 
 | TYPE-1 | scar id | sister doctrine id | what cured |
 |---|---|---|---|
@@ -56,7 +56,7 @@ Mature substrate = scars and doctrines mutually-cite. Detectors should filter fo
 | #11 cure-doctrine-cites-parent-NOT-scar | `19e0abca086ed0f` | `19e0abca086156d` | cure-doctrine MUST cite scar-id in Sister: field (this gift codified the iron-law; I violated it 9-of-10 times; surfaced by scripts/projections/scar-doctrine-pair.ts which now runs at cap-prep --detect cold-start) |
 | #12 final-final-recurrence | `19e0adc3189cb7a` | `19e0adc31893b62` | banked "SESSION-BLOCK FINAL-FINAL" after prior "FINAL" = multi-close-fragmentation pattern recurrence DESPITE shipping this gift + detector-substrate + multi-close-detector THIS SAME session — captain-fish doesnt-see-water: shipped-cure ≠ applied-cure |
 
-Pair-rate: 9 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc.
+Pair-rate: 12 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc. Pair-rate metric also tracked via scripts/projections/scar-doctrine-pair.ts (saga-26 22% → 36% as retro-citations land).
 
 ## Anti-patterns
 
