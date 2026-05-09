@@ -35,7 +35,7 @@ Operator-coined 2026-05-09: *"synthesis is like that contraction, its kinda like
 
 Examples (saga-26):
 - `gifts/3-tier-ptc-pattern.md` absorbs ~6 saga-25 ptc-related doctrines + 5 type-1 scars = -10 conceptual
-- `gifts/captain-cure-pairs.md` absorbs 12 saga-26 cure-pairs + saga-25 doctrines into 1 iron-law = -13 conceptual
+- `gifts/captain-cure-pairs.md` absorbs 13 saga-26 cure-pairs + saga-25 doctrines into 1 iron-law = -14 conceptual
 - `scripts/projections/scar-doctrine-pair.ts` absorbs N ad-hoc orphan-scar audits = projection-cached
 - `lib/arq.ts:IndexedCorpus` absorbs 18 inline `events.filter(e => e.type === X)` patterns into 1 indexed substrate
 
