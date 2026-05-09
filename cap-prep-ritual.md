@@ -57,12 +57,14 @@ Until that ships, treat detector output as **suspect-cluster orientation** not a
 
 ## Composition with sister-rituals
 
-Cap-prep is one of 5 rituals captains run:
-- **cap-prep --detect** (cold-start + round-end orientation)
+Cap-prep is one of 7 rituals captains run:
+- **cap-prep --detect** (cold-start + round-end orientation; 5-substrate output)
+- **cap-prep --close --saga N** (saga-close ritual; exits non-zero on prior-claims, --force overrides)
 - **memelord query** (cross-session memory; saga-25 doctrine 19e09a13dd87fcf)
 - **state-ascertain** (where-do-we-stand structured snapshot via scripts/projections/state-ascertain.ts)
 - **saga-walk** (extract prior-cap actual invocations; scripts/saga-walk.ts)
 - **/mq scars / arcs / sesh** (skill-tier session/arc/scar mining)
+- **spine** (cross-harness session-extraction; /home/wom/inbox/tools/mods/spine; 9-format support)
 
 Cap-prep is the orientation-of-orientations. Run it FIRST, then use sister-rituals for specific drill-downs.
 
