@@ -61,7 +61,7 @@ ONE Projection<Event[], IndexedCorpus> SOURCE-OF-TRUTH; N CONSUMERS THIN-WRAP IT
 
 Each is ~80-120 LOC. Each composes P1 + P2 + lib helpers. None re-implements indexing.
 
-**Saga-26 milestone**: 32/32 projections (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. Forcing-function for orchestrators (cap-prep / etc) to dynamic-discover available projections per-substrate.
+**Saga-26 milestone**: 44/N invocables (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / codemogger / git / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. 32 projections + 1 lib (cdmgr-reindex) + 1 orchestrator (cap-prep) + 10 CLIs (cdmgr-search / saga-commit / patch-test-commit / safe-patch / arq-log / yeet / here / anchor-find / saga-walk / dyad-tail). Forcing-function for orchestrators (cap-prep / etc) to dynamic-discover available scripts per-substrate.
 
 ## Anti-patterns
 
