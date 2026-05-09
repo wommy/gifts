@@ -19,7 +19,10 @@
 //     [--sister id1,id2,...]             # explicit sister-doctrine ids
 //     [--no-coauthor]                    # skip Claude trailer
 //     [--dry-run]                        # print msg, do not commit
-import { spawnSync, execSync } from "node:child_process"
+import { maybeFromJson } from "./lib/cli-io.ts"
+import { parseArgs as parseSchema } from "./lib/cli-args.ts"
+import { run, runCmd } from "./lib/proc.ts"
+import { bankEvent } from "./lib/bank.ts"
 
 interface Args {
   title: string
@@ -33,36 +36,32 @@ interface Args {
 }
 
 function parseArgs(argv: string[]): Args {
-  const args: Args = { title: "", body: "", files: [], sister: [], noCoauthor: false, dryRun: false }
-  for (let i = 0; i < argv.length; i++) {
-    const k = argv[i]
-    const v = argv[i + 1]
-    switch (k) {
-      case "--title": args.title = v ?? ""; i++; break
-      case "--body": args.body = v ?? ""; i++; break
-      case "--saga": args.saga = v; i++; break
-      case "--sister-auto": args.sisterAuto = Number(v); i++; break
-      case "--sister": args.sister = (v ?? "").split(",").map(s => s.trim()).filter(Boolean); i++; break
-      case "--no-coauthor": args.noCoauthor = true; break
-      case "--dry-run": args.dryRun = true; break
-      case "--files": {
-        let j = i + 1
-        while (j < argv.length && !argv[j]!.startsWith("--")) {
-          args.files.push(argv[j]!)
-          j++
-        }
-        i = j - 1
-        break
-      }
-    }
+  // saga-25 CUT-B migration: schema-driven via lib/cli-args.ts (was hand-rolled switch).
+  // Note: --sister kept as comma-string for backward-compat with existing callers.
+  // --no-coauthor sets noCoauthor=true (cli-args' --no-foo only flips matching boolean field;
+  // here we keep the original semantic by post-processing).
+  const r = parseSchema<{
+    title: string; body: string; files: string[]; saga?: string;
+    "sister-auto"?: number; sister?: string;
+    "no-coauthor": boolean; "dry-run": boolean;
+  }>(argv, {
+    title: "string", body: "string", files: "array", saga: "string",
+    "sister-auto": "number", sister: "string",
+    "no-coauthor": "boolean", "dry-run": "boolean",
+  }, "rest")
+  const f = r.flags
+  return {
+    title: f.title ?? "", body: f.body ?? "", files: f.files ?? [],
+    saga: f.saga, sisterAuto: f["sister-auto"],
+    sister: (f.sister ?? "").split(",").map(s => s.trim()).filter(Boolean),
+    noCoauthor: f["no-coauthor"], dryRun: f["dry-run"],
   }
-  return args
 }
 
 export function getRecentDoctrines(n: number, arqPath?: string): string[] {
   const arq = arqPath ?? `${import.meta.dir}/arq-log.ts`
   try {
-    const out = execSync(`bun ${arq} ls doctrine | tail -${n}`, { encoding: "utf8" })
+    const out = run(`bun ${arq} ls doctrine | tail -${n}`).stdout
     const ids: string[] = []
     for (const line of out.split("\n")) {
       const m = line.match(/\(([0-9a-f]+)\)/)
@@ -97,7 +96,10 @@ export function buildMessage(args: Args): string {
 }
 
 async function main() {
-  const args = parseArgs(process.argv.slice(2))
+  const fromJson = await maybeFromJson<Partial<Args>>()
+  const args = fromJson
+    ? { title: "", body: "", files: [], sister: [], noCoauthor: false, dryRun: false, ...fromJson } as Args
+    : parseArgs(process.argv.slice(2))
   if (!args.title) {
     console.error("usage: bun scripts/saga-commit.ts --title <t> --body <b> --files <p>... [--sister-auto N] [--saga N] [--dry-run]")
     process.exit(2)
@@ -114,17 +116,18 @@ async function main() {
     console.error("--files required (or --dry-run)")
     process.exit(2)
   }
-  const addRes = spawnSync("git", ["add", ...args.files], { encoding: "utf8" })
-  if (addRes.status !== 0) {
+  const addRes = runCmd("git", ["add", ...args.files])
+  if (!addRes.ok) {
     console.error("git add failed:", addRes.stderr)
     process.exit(1)
   }
-  const commitRes = spawnSync("git", ["commit", "-F", "-"], { input: message, encoding: "utf8" })
-  if (commitRes.status !== 0) {
+  const commitRes = runCmd("git", ["commit", "-F", "-"], { input: message })
+  if (!commitRes.ok) {
     console.error("git commit failed:", commitRes.stderr)
     process.exit(1)
   }
   console.log(commitRes.stdout)
+  bankEvent("heading-shipped", `saga-commit ok: ${args.title}${args.saga ? ` (saga-${args.saga})` : ""}`)
 }
 
 if (import.meta.main) {

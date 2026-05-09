@@ -71,3 +71,42 @@ if (import.meta.main) {
   console.log("surgical-patch.ts — anchor-based file patcher for plan-mode-forever workflows")
   console.log("see scripts/lib/surgical-patch.test.ts for usage examples")
 }
+
+/** Extract the verbatim slice between startMarker..endMarker (end-marker inclusive) for use as a unique anchor.
+ *  Escape hatch (saga-25 op-coined): use when the raw anchor string would carry escape-soup
+ *  (nested template literals, embedded backticks/${...}/apostrophes) or when middle bytes are uncertain.
+ *  Asserts the extracted slice is itself unique in the file before returning. */
+export async function sliceBetween(
+  filePath: string,
+  startMarker: string,
+  endMarker: string,
+): Promise<{ slice: string; offset: number; length: number }> {
+  const s = await Bun.file(filePath).text()
+  const startIdx = s.indexOf(startMarker)
+  if (startIdx === -1) {
+    const preview = startMarker.slice(0, 60).replace(/\n/g, "\\n")
+    throw new Error(`sliceBetween: start marker not found in ${filePath} (preview: "${preview}...")`)
+  }
+  const endSearchFrom = startIdx + startMarker.length
+  const endIdx = s.indexOf(endMarker, endSearchFrom)
+  if (endIdx === -1) {
+    const preview = endMarker.slice(0, 60).replace(/\n/g, "\\n")
+    throw new Error(`sliceBetween: end marker not found in ${filePath} after start@${startIdx} (preview: "${preview}...")`)
+  }
+  const slice = s.slice(startIdx, endIdx + endMarker.length)
+  if (s.indexOf(slice, startIdx + 1) !== -1) {
+    throw new Error(`sliceBetween: extracted slice occurs >1× in ${filePath}; markers narrow but slice itself non-unique`)
+  }
+  return { slice, offset: startIdx, length: slice.length }
+}
+
+/** Convenience: applyPatch via sliceBetween. Replaces the (unique) slice spanning startMarker..endMarker. */
+export async function applyPatchBetween(
+  filePath: string,
+  startMarker: string,
+  endMarker: string,
+  replace: string,
+): Promise<PatchReport> {
+  const { slice } = await sliceBetween(filePath, startMarker, endMarker)
+  return applyPatch(filePath, [{ anchor: slice, replace }])
+}
