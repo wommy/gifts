@@ -6,7 +6,9 @@
 
 ```bash
 bun scripts/cap-prep.ts --detect       # 5-substrate cold-start orientation
-                                       # surfaces: scars+detectors / gift-evidence / scar-doctrine-pair / lexicon
+                                       # surfaces: scars+detectors / gift-evidence / scar-doctrine-pair / lexicon / scripts-corpus
+cat /home/wom/.claude/projects/-home-wom-infra-glom-MR/memory/insight_saga26_meta_tips_for_future_captains.md
+                                       # 13 saga-26 meta-tips (operator-as-forcing-function pattern, etc)
 ```
 
 ## Saga-26 final substrate ships
