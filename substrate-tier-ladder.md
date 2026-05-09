@@ -51,6 +51,13 @@ substrate is the corpus's memory of what was tried.
 
 ## Self-evidence (saga-26 session lived the ladder)
 
+**Saga-26 distill→promote witness** (operator-caught at 200+ commits): captain repeated 2 patterns N=12+ times each before distilling:
+- gift-mirror chain (copy → commit → push) → `scripts/sync-gifts-public.ts` distillate
+- substrate-fit batch annotation → `scripts/annotate-substrate-requires.ts` distillate
+
+Operator-prompt: *"are there any helpers you should have cut an hour ago"* surfaced both. Tip-#4 of saga-26 meta-tips: bubble-up after every SQ-close + audit for repeat-patterns.
+
+
 This session executed the ladder 3+ times:
 - 5 scratch one-shots written via `here.ts write` (saga-26-r5-byType-dial.ts / saga-26-r5-2-dial.ts / saga-26-cdmgr-dial.ts / saga-26-gift-3tier-ptc.ts / saga-26-saga-commit-auto-heading.ts / saga-26-ptc-delegate-heading.ts)
 - All yeeted to `scripts/scratch/archive/saga-26/` after success via `scripts/yeet.ts`
