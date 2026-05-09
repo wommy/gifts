@@ -61,7 +61,7 @@ ONE Projection<Event[], IndexedCorpus> SOURCE-OF-TRUTH; N CONSUMERS THIN-WRAP IT
 
 Each is ~80-120 LOC. Each composes P1 + P2 + lib helpers. None re-implements indexing.
 
-**Saga-26 milestone**: ~80 invocables (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / codemogger / git / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. Coverage: 32 projections + 1 lib + 1 orchestrator + ~46 CLIs (test/mock/postit/closeloop/distill/agent/saga-{commit,walk,recurse,onramp-gen}/cdmgr-search/safe-patch/arq-log/yeet/here/anchor-find/dyad-tail/handcrawl-saga/locate-codex/seshae-{arq,mine,batch,saga}/promotion-candidates/audit-forks/boom-dedup/research/promote-from-draft/openspec-archive/mocker/fitness-recommend/bun-docs/arq-search/page-seshae/mine-memelord/compact-brace/sccache-garage/detect/scar-destroyer/full-arq-mine/etc). Forcing-function for orchestrators to dynamic-discover available scripts per-substrate.
+**Saga-26 milestone — 100% invocable-tier coverage**: 34/34 projections + 4/4 hooks + 48/48 CLIs + 1 lib (cdmgr-reindex; libs intentionally sparse since pure-import) declare `substrateRequires` array per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. Surfaced via `scripts/projections/scripts-corpus.ts` (cap-prep --detect 5th substrate). Substrate-types: arq / postit / filesystem / github-remote / cross-harness / codemogger / git. Forcing-function for orchestrators to dynamic-discover available scripts per-substrate.
 
 ## Anti-patterns
 
