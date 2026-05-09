@@ -61,7 +61,7 @@ ONE Projection<Event[], IndexedCorpus> SOURCE-OF-TRUTH; N CONSUMERS THIN-WRAP IT
 
 Each is ~80-120 LOC. Each composes P1 + P2 + lib helpers. None re-implements indexing.
 
-**Saga-26 milestone**: 44/N invocables (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / codemogger / git / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. 32 projections + 1 lib (cdmgr-reindex) + 1 orchestrator (cap-prep) + 10 CLIs (cdmgr-search / saga-commit / patch-test-commit / safe-patch / arq-log / yeet / here / anchor-find / saga-walk / dyad-tail). Forcing-function for orchestrators (cap-prep / etc) to dynamic-discover available scripts per-substrate.
+**Saga-26 milestone**: ~80 invocables (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / codemogger / git / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. Coverage: 32 projections + 1 lib + 1 orchestrator + ~46 CLIs (test/mock/postit/closeloop/distill/agent/saga-{commit,walk,recurse,onramp-gen}/cdmgr-search/safe-patch/arq-log/yeet/here/anchor-find/dyad-tail/handcrawl-saga/locate-codex/seshae-{arq,mine,batch,saga}/promotion-candidates/audit-forks/boom-dedup/research/promote-from-draft/openspec-archive/mocker/fitness-recommend/bun-docs/arq-search/page-seshae/mine-memelord/compact-brace/sccache-garage/detect/scar-destroyer/full-arq-mine/etc). Forcing-function for orchestrators to dynamic-discover available scripts per-substrate.
 
 ## Anti-patterns
 
