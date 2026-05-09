@@ -39,7 +39,7 @@ Mature substrate = scars and doctrines mutually-cite. Detectors should filter fo
 
 ## Self-evidence (saga-26 session)
 
-12 cap-cure-pairs banked this session:
+13 cap-cure-pairs banked this session:
 
 | TYPE-1 | scar id | sister doctrine id | what cured |
 |---|---|---|---|
@@ -55,8 +55,9 @@ Mature substrate = scars and doctrines mutually-cite. Detectors should filter fo
 | #10 escape-soup-TS-body | `19e0ab3f99caa46` | `19e0ab3f99c1e12` | ANY-content-NEVER-via-JS-template-wrap (generalized #8 from markdown to ANY content with backticks/templates) |
 | #11 cure-doctrine-cites-parent-NOT-scar | `19e0abca086ed0f` | `19e0abca086156d` | cure-doctrine MUST cite scar-id in Sister: field (this gift codified the iron-law; I violated it 9-of-10 times; surfaced by scripts/projections/scar-doctrine-pair.ts which now runs at cap-prep --detect cold-start) |
 | #12 final-final-recurrence | `19e0adc3189cb7a` | `19e0adc31893b62` | banked "SESSION-BLOCK FINAL-FINAL" after prior "FINAL" = multi-close-fragmentation pattern recurrence DESPITE shipping this gift + detector-substrate + multi-close-detector THIS SAME session — captain-fish doesnt-see-water: shipped-cure ≠ applied-cure |
+| #13 lexicon-source-2-stop-filter-gap | `19e0b0c924b9ea2` | `19e0b0c924b54d0` | added STOP-filter to source-1 lexicon-extraction but NOT source-2; bug surfaced only after test-coverage bubble shipped scripts/projections/lexicon.test.ts; cure: every projection ship MUST include .test.ts |
 
-Pair-rate: 12 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc. Pair-rate metric also tracked via scripts/projections/scar-doctrine-pair.ts (saga-26 22% → 36% as retro-citations land).
+Pair-rate: 13 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc. Pair-rate metric also tracked via scripts/projections/scar-doctrine-pair.ts (saga-26 22% → 36% as retro-citations land).
 
 ## Anti-patterns
 
