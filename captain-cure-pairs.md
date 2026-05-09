@@ -90,6 +90,7 @@ For any project with a similar event-substrate:
 - `19e0a07a27c3a9c` saga-25 1-witness-scars-shimmer (sister: scars-as-larval-doctrines)
 - `gifts/cap-prep-ritual.md` (sister-gift, saga-26 — surfaces unpaired scars at cold-start)
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — produces scars on rollback that get pair-doctrines)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
 ## License
 

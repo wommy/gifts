@@ -76,6 +76,7 @@ For any project with a similar substrate:
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — uses yeet-after-success in step 5)
 - `gifts/cascade-discipline.md` (sister-gift, saga-25 — same yeet-after-cascade-hop)
 - `gifts/dial-loop-toolbox.md` (sister-gift, saga-26 — uses dial-not-rewrite within the ladder)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
 ## License
 

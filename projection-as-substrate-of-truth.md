@@ -87,6 +87,7 @@ The projection-cache lib (`scripts/lib/projection-cache.ts`, ~70 LOC) is BSD-tie
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — patch+test+commit also composes lib primitives)
 - `gifts/detector-substrate.md` (sister-gift, saga-26 — detector apparatus composed via projections)
 - `gifts/captain-cure-pairs.md` (sister-gift, saga-26 — scar-doctrine-pair surfaces orphan-pairs)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
 ## License
 

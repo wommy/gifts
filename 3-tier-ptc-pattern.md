@@ -69,6 +69,7 @@ For any project with a similar substrate:
 - `19e0a8748f494bb` saga-26 TYPE-1 #3 anti-unix-philo-monolith (scar)
 - `19e0a9d29b4a91f` saga-26 markdown-NEVER-via-JS-scratch (sister cure for the gift-write itself)
 - `gifts/cascade-discipline.md` (sister-gift, saga-25 — propagation-shape over the same primitive)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 - `gifts/pareto-loop-cycle.md` (sister-gift, saga-25 — captain-loop-discipline)
 
 ## License

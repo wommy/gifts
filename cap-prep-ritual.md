@@ -84,6 +84,7 @@ For any project with a similar substrate:
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — what the captain does AFTER orientation)
 - `gifts/dial-loop-toolbox.md` (sister-gift, saga-26 — how the captain dials patches WITHIN the loop)
 - `gifts/cascade-discipline.md` (sister-gift, saga-25 — propagation across N callers)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 - `gifts/substrate-tier-ladder.md` (sister-gift, saga-26 — workflow for scratch-experiments the captain runs)
 
 ## License
