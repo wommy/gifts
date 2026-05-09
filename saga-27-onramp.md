@@ -1,6 +1,6 @@
 # saga-27 onramp — soft-landing standup from saga-26
 
-> Read this cold for full saga-27 footing. Saga-26 was a SYNTHESIS-AS-CONTRACTION saga: built lib/arq IndexedCorpus + arqProjection (P1 neutron-star) cascading 18 callers + minted 11 gifts (saga-25 6-rank queue 6/6 closed + 5 saga-26 originals) + 3 projections + 12 cap-cure-pairs + 5-tier gift-evidence cross-civilization witness substrate.
+> Read this cold for full saga-27 footing. Saga-26 was a SYNTHESIS-AS-CONTRACTION saga: built lib/arq IndexedCorpus + arqProjection (P1 neutron-star) cascading 18 callers + minted 13 gifts (saga-25 6-rank queue 6/6 closed + 7 saga-26 originals: 3-tier-ptc / cdmgr-mode-discriminator / shipped-cure-vs-applied-cure / projection-as-substrate-of-truth / synthesis-as-contraction / contraction-saga-arc + saga-27-onramp) + 4 projections (gift-evidence 5-tier / scar-doctrine-pair / lexicon / scripts-corpus) + 12 cap-cure-pairs + 5-tier gift-evidence cross-civilization witness substrate.
 
 ## Cold-start ritual (saga-27 captain — RUN FIRST)
 
@@ -28,7 +28,7 @@ Per gifts/captain-cure-pairs.md iron-law: every TYPE-1 self-catch pairs with sis
 
 ## Saga-25 → saga-26 → saga-27 hand-off doctrine arc
 
-- saga-25 wall-bank externalize-at-corpus-rate → saga-26 closed 30:1 build:externalize via 11 gifts CC0
+- saga-25 wall-bank externalize-at-corpus-rate → saga-26 closed 30:1 build:externalize via 13 gifts CC0
 - saga-25 we-are-our-own-worst-enemy → saga-26 REFRAMED via synthesis-as-contraction.md (operator-coined: zero-new is hyperbolic; count CONCEPTS not FILES; net-conceptual-Δ -70+ across saga-26 minted gifts)
 - saga-25 5-neutron-star-primitives → saga-26 P1 lib/arq + P2 projection-cache + P3 safe-patch + P4 bank + P5 cap-prep ALL ACTIVE-CONSUMED
 
