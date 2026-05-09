@@ -100,6 +100,8 @@ For any team-process or codebase entering a contraction-phase:
 - `gifts/substrate-tier-ladder.md` (cross-phase yeet-discipline)
 - `gifts/shipped-cure-vs-applied-cure.md` (cross-phase forcing-functions)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — inter-phase glue of the 6-phase arc; every phase-close has bubbles to surface)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

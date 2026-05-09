@@ -60,6 +60,7 @@ Per gifts/captain-cure-pairs.md iron-law: every TYPE-1 self-catch pairs with sis
 - `gifts/captain-cure-pairs.md` (saga-26 — pair iron-law)
 - `gifts/cap-prep-ritual.md` (saga-26 — mandatory cold-start)
 - `gifts/synthesis-as-contraction.md` (saga-26 — count concepts not files)
+- `gifts/bubble-up-discipline.md` (saga-26 — every ship has 5-10 propagation-sites; operator-probe forcing-function)
 - `gifts/shipped-cure-vs-applied-cure.md` (saga-26 — forcing-functions at action-time)
 
 ## Public mirror

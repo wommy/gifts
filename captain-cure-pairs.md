@@ -95,6 +95,8 @@ For any project with a similar event-substrate:
 - `gifts/3-tier-ptc-pattern.md` (sister-gift, saga-26 — produces scars on rollback that get pair-doctrines)
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape this gift composes within)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — every cure-pair-ship has 5-10 propagation-sites)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.

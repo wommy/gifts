@@ -81,6 +81,8 @@ For any team-process where rules-are-codified-but-violated:
 
 - `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase contraction-saga-shape)
 
+- `gifts/bubble-up-discipline.md` (sister-gift, saga-26 — operationalization of captain-fish-doesnt-see-water; 7 propagation-categories + 5-step bubble-cycle)
+
 ## License
 
 CC0 — public domain. No attribution required. Adopt + dial freely.
