@@ -75,6 +75,10 @@ Surface signal from substrate.
 
 Each gift includes its own project-retargeting callouts — replace project-specific paths / runtimes / event-log conventions as fits yours. The doctrine is portable; the implementation is project-shaped.
 
+## Reference scripts (`scripts/`)
+
+The `scripts/` subdirectory mirrors saga-26 reference implementations of the primitives the gifts assume. See [`scripts/README.md`](./scripts/README.md). Categories: edit-primitives (safe-patch / surgical-patch / anchor-find), patch-test-commit orchestration (patch-test-commit / saga-commit / here), cold-start (cap-prep / arq-log), mining (cdmgr-search / seshae-arq / saga-walk), substrate-tier-ladder (yeet), detection (detect).
+
 ## Witness evidence
 
 Run `bun scripts/projections/gift-evidence.ts` to project per-gift heading-shipped + session-event witness counts. Output: `memory/auto-gift-evidence.md`. Each gift documents real ship-events, not abstract patterns.
