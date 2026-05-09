@@ -1,6 +1,6 @@
 # saga-27 onramp — soft-landing standup from saga-26
 
-> Read this cold for full saga-27 footing. Saga-26 was a SYNTHESIS-AS-CONTRACTION saga: built lib/arq IndexedCorpus + arqProjection (P1 neutron-star) cascading 18 callers + minted 13 gifts (saga-25 6-rank queue 6/6 closed + 7 saga-26 originals: 3-tier-ptc / cdmgr-mode-discriminator / shipped-cure-vs-applied-cure / projection-as-substrate-of-truth / synthesis-as-contraction / contraction-saga-arc + saga-27-onramp) + 4 projections (gift-evidence 5-tier / scar-doctrine-pair / lexicon / scripts-corpus) + 12 cap-cure-pairs + 5-tier gift-evidence cross-civilization witness substrate.
+> Read this cold for full saga-27 footing. Saga-26 was a SYNTHESIS-AS-CONTRACTION saga: built lib/arq IndexedCorpus + arqProjection (P1 neutron-star) cascading 18 callers + minted 13 gifts (saga-25 6-rank queue 6/6 closed + 7 saga-26 originals: 3-tier-ptc / cdmgr-mode-discriminator / shipped-cure-vs-applied-cure / projection-as-substrate-of-truth / synthesis-as-contraction / contraction-saga-arc + saga-27-onramp) + 4 projections (gift-evidence 5-tier / scar-doctrine-pair / lexicon / scripts-corpus) + 13 cap-cure-pairs + 5-tier gift-evidence cross-civilization witness substrate.
 
 ## Cold-start ritual (saga-27 captain — RUN FIRST)
 

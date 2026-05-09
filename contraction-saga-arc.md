@@ -72,7 +72,7 @@ This 6-phase arc applies when a saga inherits a wall-bank of punts AND the goal 
 
 ## The captain-fish-doesnt-see-water trap
 
-Even running this arc, captains will violate the discipline mid-arc (saga-26 12 TYPE-1 cap-cure-pairs witness this). The arc-shape is OPERATIONAL not COGNITIVE. Forcing-functions (`gifts/shipped-cure-vs-applied-cure.md`) close the gap at action-time:
+Even running this arc, captains will violate the discipline mid-arc (saga-26 13 TYPE-1 cap-cure-pairs witness this). The arc-shape is OPERATIONAL not COGNITIVE. Forcing-functions (`gifts/shipped-cure-vs-applied-cure.md`) close the gap at action-time:
 - `cap-prep --close --saga N` exits non-zero on prior-claims (multi-close-fragmentation cure)
 - `saga-commit` auto-banks heading-shipped (manual-bank elimination)
 - `ptc --rollback-on-fail` enforces test-gate (silent-fail-then-commit cure)
