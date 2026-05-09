@@ -91,6 +91,7 @@ For any team-process or codebase asking "did we add or subtract?":
 - `gifts/captain-cure-pairs.md` (sister-gift, saga-26 — pair-discipline is the smallest-unit contraction)
 - `gifts/projection-as-substrate-of-truth.md` (sister-gift, saga-26 — projections are contraction-of-queries)
 - `gifts/shipped-cure-vs-applied-cure.md` (sister-gift, saga-26 — codification is necessary-not-sufficient; forcing-functions complete the contraction)
+- `gifts/contraction-saga-arc.md` (sister-gift, saga-26 — 6-phase saga-shape that USES synthesis-as-contraction discipline at each phase)
 
 ## License
 
