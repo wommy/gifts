@@ -24,6 +24,9 @@ import { parseArgs as parseSchema } from "./lib/cli-args.ts"
 import { run, runCmd } from "./lib/proc.ts"
 import { bankEvent } from "./lib/bank.ts"
 
+// substrate-fit declaration (saga-26 N7 / doctrine 19e0af044e574df)
+export const substrateRequires = ["git","arq"]
+
 interface Args {
   title: string
   body: string

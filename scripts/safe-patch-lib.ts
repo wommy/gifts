@@ -8,6 +8,9 @@
 import { applyPatch, type PatchOp, type PatchReport } from "./surgical-patch.ts"
 import { readFileSync } from "node:fs"
 
+// substrate-fit declaration (saga-26 N7 / doctrine 19e0af044e574df)
+export const substrateRequires = ["filesystem"]
+
 export interface SafePatchResult {
   ok: boolean
   report?: PatchReport

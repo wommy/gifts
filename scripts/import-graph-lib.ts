@@ -1,6 +1,9 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 
+// substrate-fit declaration (saga-26 N7 / doctrine 19e0af044e574df)
+export const substrateRequires = ["filesystem"]
+
 const IMPORT_RE = /(?:^|\s)(?:import\s.+?\sfrom\s|import\s+|from\s+)['"]([^'"]+)['"]/gm
 
 const WALK_EXTS = new Set(['.ts', '.tsx', '.mts', '.cts', '.js', '.mjs'])

@@ -5,6 +5,9 @@
 
 import { writeFileSync, appendFileSync } from "node:fs"
 
+// substrate-fit declaration (saga-26 N7 / doctrine 19e0af044e574df)
+export const substrateRequires = ["arq","filesystem"]
+
 /** Read all of stdin to string. */
 export async function readStdin(): Promise<string> {
   return await Bun.stdin.text()

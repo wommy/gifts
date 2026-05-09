@@ -3,6 +3,9 @@
 import { appendFileSync, readFileSync as readFs, readFileSync, existsSync, renameSync } from 'node:fs'
 import { Projection } from './projection-cache.ts'
 
+// substrate-fit declaration (saga-26 N7 / doctrine 19e0af044e574df)
+export const substrateRequires = ["arq","filesystem"]
+
 /** Valid recognized event types (open list — others allowed but these are canonical). */
 export const KNOWN_TYPES = [
   'task', 'scar', 'observation', 'doctrine', 'heading', 'mock',
