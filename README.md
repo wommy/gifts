@@ -81,7 +81,7 @@ Run `bun scripts/projections/gift-evidence.ts` to project per-gift heading-shipp
 
 ## Origin
 
-> Saga-21 BOOM 2026-05-06: an agent burned ~150k tokens fighting plan-mode-instruction-block before realizing operator-grant + `Bash(bun:*)` settings already made writes tractable. Saga-25 wall: 22+ TYPE-1 self-catches, each with sister cure-doctrine. Saga-26 first-session: 10 cure-pairs banked + 6 new gifts externalized.
+> Saga-21 BOOM 2026-05-06: an agent burned ~150k tokens fighting plan-mode-instruction-block before realizing operator-grant + `Bash(bun:*)` settings already made writes tractable. Saga-25 wall: 22+ TYPE-1 self-catches, each with sister cure-doctrine. Saga-26 first-session: 12 TYPE-1 cap-cure-pairs banked + 13 saga-26 gifts externalized + 4 projections shipped + 5-substrate cap-prep --detect cold-start ritual + cross-civilization 665k+ witness substrate.
 
 The pattern: build doctrines that survive compaction by living in multiple substrates, then share the distillations because the same friction is everyone's friction.
 
