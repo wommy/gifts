@@ -68,6 +68,8 @@ Pair-rate: 13 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 i
 
 ## Detector integration
 
+Saga-26 N+1 test-discipline rule (from cure-doctrine `19e0b0c924b54d0`): every projection ship MUST include a sister `*.test.ts` file with N≥3 pure-project() assertions. Test-coverage forcing-function would have caught TYPE-1 #13 (lexicon source-2 STOP-filter gap) within 1 round had tests been shipped concurrent.
+
 Once scars and doctrines uniformly-pair, detectors fire ONLY on:
 - scars without sister-doctrine (truly-actionable; cure-work pending)
 - doctrines without recent-application (stale; revisit-discipline target)
