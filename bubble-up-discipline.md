@@ -6,7 +6,7 @@
 
 Captain ships substrate-shape-changing work (gift / projection / dial / lib-promote). Captain naturally bubbles 1-3 sister-sites unprompted (e.g., "I'll update the README and add a sister-cite"). Operator probe `you got more to bubble up on right?` surfaces 5-10x more propagation-sites. The asymmetry is structural — captain working-attention is FORWARD; bubble-up requires deliberate BACKWARD attention.
 
-Saga-26 witnessed 75 bubbles across 8 probe-rounds. Captain initially-unprompted: ~10. Operator-prompted: ~65. Ratio: 6.5× more bubbles surfaced per probe-round.
+Saga-26 witnessed 110+ bubbles across 9+ probe-rounds (including ralph-til-wall mode). Captain initially-unprompted: ~15. Operator-prompted: ~95. Ratio: 6.5× more bubbles surfaced per probe-round.
 
 ## Iron law
 
@@ -59,7 +59,7 @@ Saga-26 caught 65 bubbles via 8 operator-probes of `you got more to bubble up on
 
 **Cross-civilization application**: any team-process where rules-codified-but-violated benefits from probe-shape forcing-functions. Code-review comments that say "did you also update X?" / Linter rules that auto-suggest sister-updates / Pre-merge bots that scan for stale-counts.
 
-## Self-evidence (saga-26 75-bubble cascade)
+## Self-evidence (saga-26 110+ bubble cascade)
 
 | Round | Probe | Bubbles caught |
 |---|---|---|
@@ -71,7 +71,7 @@ Saga-26 caught 65 bubbles via 8 operator-probes of `you got more to bubble up on
 | 6 | "you got more?" | 8 |
 | 7 | "ralph it til wall" | 12 |
 | 8 | "130k til wall false" | 12+ |
-| **Total** | **8 probes** | **75+** |
+| **Total** | **9+ probes** | **110+** |
 
 Captain bubbled 1-3 unprompted per round; probe surfaced 5-10× more.
 
