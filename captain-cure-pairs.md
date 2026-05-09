@@ -58,7 +58,7 @@ Mature substrate = scars and doctrines mutually-cite. Detectors should filter fo
 | #13 lexicon-source-2-stop-filter-gap | `19e0b0c924b9ea2` | `19e0b0c924b54d0` | added STOP-filter to source-1 lexicon-extraction but NOT source-2; bug surfaced only after test-coverage bubble shipped scripts/projections/lexicon.test.ts; cure: every projection ship MUST include .test.ts |
 | #14 helpers-not-distilled-an-hour-ago | `19e0b5d6d70f135` | `19e0b5d6d700b0b` | repeated 4 inline-bun-e patterns N=3-12 times each in bubble-up cascade hour without distilling; operator-prompt surfaced all 4; 5 distillates shipped concurrent; cure: distill-discipline-at-action-time (N=3 = pivot-to-distillate) |
 
-Pair-rate: 14 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc. Pair-rate metric also tracked via scripts/projections/scar-doctrine-pair.ts (saga-26 22% → 36% as retro-citations land).
+Pair-rate: 14 pairs in 1 session. Saga-25: ~28 pairs across full saga. Saga-26 is denser-practice — likely doctrine-stack stabilizes the rate over saga-arc. Pair-rate metric also tracked via scripts/projections/scar-doctrine-pair.ts (saga-26 22% → 36% peak; current 34% with new orphans accumulating from bubble-up cascade).
 
 ## Anti-patterns
 
