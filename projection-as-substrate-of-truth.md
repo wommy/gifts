@@ -61,6 +61,8 @@ ONE Projection<Event[], IndexedCorpus> SOURCE-OF-TRUTH; N CONSUMERS THIN-WRAP IT
 
 Each is ~80-120 LOC. Each composes P1 + P2 + lib helpers. None re-implements indexing.
 
+**Saga-26 milestone**: 32/32 projections (corpus-wide) declare `substrateRequires` array (arq / postit / filesystem / github-remote / cross-harness / etc) per saga-26 doctrine `19e0af044e574df` substrate-fit-discriminator. Forcing-function for orchestrators (cap-prep / etc) to dynamic-discover available projections per-substrate.
+
 ## Anti-patterns
 
 - **Re-implementing filter-by-type** in each projection → use `corpus.byType.get('X') ?? []`
